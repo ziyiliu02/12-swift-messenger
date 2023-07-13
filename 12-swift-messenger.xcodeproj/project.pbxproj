@@ -8,18 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		64CF4CA72A5FDF1900401FB8 /* _2_swift_messengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CF4CA62A5FDF1900401FB8 /* _2_swift_messengerApp.swift */; };
-		64CF4CA92A5FDF1900401FB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CF4CA82A5FDF1900401FB8 /* ContentView.swift */; };
+		64CF4CA92A5FDF1900401FB8 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CF4CA82A5FDF1900401FB8 /* RootView.swift */; };
 		64CF4CAB2A5FDF1B00401FB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CF4CAA2A5FDF1B00401FB8 /* Assets.xcassets */; };
 		64CF4CAF2A5FDF1B00401FB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CF4CAE2A5FDF1B00401FB8 /* Preview Assets.xcassets */; };
+		64CF4CBE2A5FE18000401FB8 /* LexendDeca-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64CF4CBB2A5FE18000401FB8 /* LexendDeca-Regular.ttf */; };
+		64CF4CBF2A5FE18000401FB8 /* LexendDeca-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64CF4CBC2A5FE18000401FB8 /* LexendDeca-Bold.ttf */; };
+		64CF4CC02A5FE18000401FB8 /* LexendDeca-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64CF4CBD2A5FE18000401FB8 /* LexendDeca-SemiBold.ttf */; };
+		64CF4CC22A5FE3BB00401FB8 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CF4CC12A5FE3BB00401FB8 /* Fonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		64CF4CA32A5FDF1900401FB8 /* 12-swift-messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "12-swift-messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64CF4CA62A5FDF1900401FB8 /* _2_swift_messengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2_swift_messengerApp.swift; sourceTree = "<group>"; };
-		64CF4CA82A5FDF1900401FB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64CF4CA82A5FDF1900401FB8 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		64CF4CAA2A5FDF1B00401FB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64CF4CAC2A5FDF1B00401FB8 /* _2_swift_messenger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _2_swift_messenger.entitlements; sourceTree = "<group>"; };
 		64CF4CAE2A5FDF1B00401FB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64CF4CBB2A5FE18000401FB8 /* LexendDeca-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-Regular.ttf"; sourceTree = "<group>"; };
+		64CF4CBC2A5FE18000401FB8 /* LexendDeca-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-Bold.ttf"; sourceTree = "<group>"; };
+		64CF4CBD2A5FE18000401FB8 /* LexendDeca-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-SemiBold.ttf"; sourceTree = "<group>"; };
+		64CF4CC12A5FE3BB00401FB8 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		64CF4CC32A5FE45600401FB8 /* -2-swift-messenger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-2-swift-messenger-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +61,14 @@
 		64CF4CA52A5FDF1900401FB8 /* 12-swift-messenger */ = {
 			isa = PBXGroup;
 			children = (
+				64CF4CC32A5FE45600401FB8 /* -2-swift-messenger-Info.plist */,
 				64CF4CA62A5FDF1900401FB8 /* _2_swift_messengerApp.swift */,
-				64CF4CA82A5FDF1900401FB8 /* ContentView.swift */,
+				64CF4CBA2A5FE04400401FB8 /* Views */,
+				64CF4CB92A5FE03D00401FB8 /* ViewModels */,
+				64CF4CB82A5FE03800401FB8 /* Models */,
+				64CF4CB72A5FE03200401FB8 /* Services */,
+				64CF4CB62A5FE02D00401FB8 /* Helpers */,
+				64CF4CB52A5FE02600401FB8 /* Fonts */,
 				64CF4CAA2A5FDF1B00401FB8 /* Assets.xcassets */,
 				64CF4CAC2A5FDF1B00401FB8 /* _2_swift_messenger.entitlements */,
 				64CF4CAD2A5FDF1B00401FB8 /* Preview Content */,
@@ -67,6 +82,53 @@
 				64CF4CAE2A5FDF1B00401FB8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64CF4CB52A5FE02600401FB8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				64CF4CBC2A5FE18000401FB8 /* LexendDeca-Bold.ttf */,
+				64CF4CBB2A5FE18000401FB8 /* LexendDeca-Regular.ttf */,
+				64CF4CBD2A5FE18000401FB8 /* LexendDeca-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		64CF4CB62A5FE02D00401FB8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				64CF4CC12A5FE3BB00401FB8 /* Fonts.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		64CF4CB72A5FE03200401FB8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		64CF4CB82A5FE03800401FB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		64CF4CB92A5FE03D00401FB8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		64CF4CBA2A5FE04400401FB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64CF4CA82A5FDF1900401FB8 /* RootView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +190,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				64CF4CAF2A5FDF1B00401FB8 /* Preview Assets.xcassets in Resources */,
+				64CF4CBE2A5FE18000401FB8 /* LexendDeca-Regular.ttf in Resources */,
+				64CF4CC02A5FE18000401FB8 /* LexendDeca-SemiBold.ttf in Resources */,
+				64CF4CBF2A5FE18000401FB8 /* LexendDeca-Bold.ttf in Resources */,
 				64CF4CAB2A5FDF1B00401FB8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +204,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64CF4CA92A5FDF1900401FB8 /* ContentView.swift in Sources */,
+				64CF4CA92A5FDF1900401FB8 /* RootView.swift in Sources */,
+				64CF4CC22A5FE3BB00401FB8 /* Fonts.swift in Sources */,
 				64CF4CA72A5FDF1900401FB8 /* _2_swift_messengerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +333,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"12-swift-messenger/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-2-swift-messenger-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -303,6 +370,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"12-swift-messenger/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-2-swift-messenger-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
