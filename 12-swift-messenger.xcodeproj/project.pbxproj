@@ -15,6 +15,7 @@
 		64CF4CBF2A5FE18000401FB8 /* LexendDeca-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64CF4CBC2A5FE18000401FB8 /* LexendDeca-Bold.ttf */; };
 		64CF4CC02A5FE18000401FB8 /* LexendDeca-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64CF4CBD2A5FE18000401FB8 /* LexendDeca-SemiBold.ttf */; };
 		64CF4CC22A5FE3BB00401FB8 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CF4CC12A5FE3BB00401FB8 /* Fonts.swift */; };
+		64CF4CC62A5FEB3E00401FB8 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CF4CC52A5FEB3E00401FB8 /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		64CF4CBD2A5FE18000401FB8 /* LexendDeca-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-SemiBold.ttf"; sourceTree = "<group>"; };
 		64CF4CC12A5FE3BB00401FB8 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		64CF4CC32A5FE45600401FB8 /* -2-swift-messenger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-2-swift-messenger-Info.plist"; sourceTree = SOURCE_ROOT; };
+		64CF4CC52A5FEB3E00401FB8 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +129,17 @@
 			isa = PBXGroup;
 			children = (
 				64CF4CA82A5FDF1900401FB8 /* RootView.swift */,
+				64CF4CC42A5FEB2100401FB8 /* Custom Tab Bar */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		64CF4CC42A5FEB2100401FB8 /* Custom Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				64CF4CC52A5FEB3E00401FB8 /* CustomTabBar.swift */,
+			);
+			path = "Custom Tab Bar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64CF4CC62A5FEB3E00401FB8 /* CustomTabBar.swift in Sources */,
 				64CF4CA92A5FDF1900401FB8 /* RootView.swift in Sources */,
 				64CF4CC22A5FE3BB00401FB8 /* Fonts.swift in Sources */,
 				64CF4CA72A5FDF1900401FB8 /* _2_swift_messengerApp.swift in Sources */,
