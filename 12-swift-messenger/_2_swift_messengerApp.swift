@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct _2_swift_messengerApp: App {
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             RootView()
